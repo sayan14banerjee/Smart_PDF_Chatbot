@@ -29,7 +29,7 @@ Built with **Python, LangChain, FAISS, Streamlit, and OpenAI**, this project dem
 \`\`\`
 smart-pdf-chatbot/
 │
-├── app/                  
+├── app/
 │   ├── pdf_handler.py        # ✅ Extract text from PDF
 │   ├── text_splitter.py      # ✅ Split PDF text into chunks
 │   ├── embedder.py           # ✅ Generate embeddings + store in FAISS
@@ -40,15 +40,15 @@ smart-pdf-chatbot/
 │   └── main.py               # ✅ FastAPI backend (optional) for API routes
 │
 ├── ui/
-│   └── index.py                # ✅ Streamlit frontend: upload PDF + chat UI
+│   └── index.py              # ✅ Streamlit frontend: upload PDF + chat UI
 │
 ├── data/
-│   └── index.faiss           # ✅ Stored FAISS index
+│   ├── index.faiss           # ✅ Stored FAISS index
 │   └── pdf_text.txt          # ✅ Extracted and chunked text (optional)
 │
 ├── .env                      # ✅ OpenAI key stored securely
-├── requirements.txt
-└── README.md
+├── requirements.txt          # ✅ Python dependencies
+└── README.md                 # ✅ Project documentation
 \`\`\`
 
 ---
@@ -82,7 +82,7 @@ OPENAI_API_KEY=your_api_key_here
 
 ### 5️⃣ Run the App
 \`\`\`bash
-streamlit run ui/app.py
+streamlit run ui/index.py
 \`\`\`
 
 ---
