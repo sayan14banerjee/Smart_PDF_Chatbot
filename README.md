@@ -26,7 +26,7 @@ Built with **Python, LangChain, FAISS, Streamlit, and OpenAI**, this project dem
 
 ## 📂 Project Structure  
 
-\`\`\`
+```
 smart-pdf-chatbot/
 │
 ├── app/
@@ -49,41 +49,43 @@ smart-pdf-chatbot/
 ├── .env                      # ✅ OpenAI key stored securely
 ├── requirements.txt          # ✅ Python dependencies
 └── README.md                 # ✅ Project documentation
-\`\`\`
+```
 
 ---
 
 ## ⚙️ Installation & Setup  
 
 ### 1️⃣ Clone the Repository  
-\`\`\`bash
+```bash
 git clone https://github.com/sayan14banerjee/Smart_PDF_Chatbot.git
 cd Smart_PDF_Chatbot
-\`\`\`
+```
 
 ### 2️⃣ Create a Virtual Environment
-\`\`\`bash
+```bash
 python -m venv venv
 source venv/bin/activate   # On Mac/Linux
 venv\Scripts\activate      # On Windows
-\`\`\`
+```
 
 ### 3️⃣ Install Dependencies
-\`\`\`bash
+```bash
 pip install -r requirements.txt
-\`\`\`
+```
 
 ### 4️⃣ Add API Key
 Create a `.env` file in the root folder and add:
 
-\`\`\`ini
+```ini
 OPENAI_API_KEY=your_api_key_here
-\`\`\`
+```
 
 ### 5️⃣ Run the App
-\`\`\`bash
+```bash
 streamlit run ui/index.py
-\`\`\`
+<!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
+
+```
 
 ---
 
