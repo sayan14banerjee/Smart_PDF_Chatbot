@@ -1,0 +1,54 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.pkl
+*.pickle
+
+# --- Virtual Environment ---
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# --- Streamlit ---
+.streamlit/secrets.toml  # Sensitive info (API keys, DB credentials)
+
+# --- Jupyter / Notebooks ---
+.ipynb_checkpoints
+*.ipynb_checkpoints
+
+# --- Logs & Cache ---
+*.log
+*.out
+*.err
+*.DS_Store
+*.swp
+.cache/
+.pytest_cache/
+__pycache__/
+
+# --- IDEs / Editors ---
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# --- OS Specific ---
+.DS_Store
+Thumbs.db
+
+# --- Build / Dist ---
+build/
+dist/
+*.egg-info/
+
+# Ignore setup script
+app/setup_environment.py
+app/qa_chain_v2.py
+app/qa_chain_not_work.py

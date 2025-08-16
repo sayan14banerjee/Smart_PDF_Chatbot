@@ -1,0 +1,55 @@
+
+--- Page 1 ---
+Internship Presentation Script 
+Internship at Simpsoft Solutions 
+Good morning/afternoon, everyone. My name is Sayan Banerjee, and I'm here to 
+present the work I did during my internship at Simpsoft Solutions. My internship 
+started on 17th March 2025, and is currently ongoing. 
+About Simpsoft Solutions 
+Simpsoft Solutions is an IT solutions company that works with several global clients 
+like AgriScout, Salesforce, and Credence Analytics. Apart from client services, they 
+have a product-based platform called SSuites – a no-code framework that lets users 
+build websites without writing any code. The company uses a wide variety of 
+technologies across languages, databases, cloud platforms, and DevOps tools. 
+SSuites Platform 
+SSuites is a framework that simplifies website development using component-based 
+architecture and real-time configuration. During my internship, I used SSuites to 
+develop a dynamic blog system, including backend configuration and custom 
+features. 
+My Tech Contributions 
+My responsibilities included developing APIs, debugging, and enhancing backend 
+logic. I used Node.js with AWS services like Lambda and DynamoDB. I tested APIs 
+using Postman, used Serverless Framework for deployment, and managed code 
+using Git and GitHub. 
+Console Log Centralization & AWS Cost Optimization 
+To optimize AWS CloudWatch costs, I created a centralized console utility function. 
+This utility accepted unlimited inputs and an 8-bit binary flag, like 11100000, where 
+each bit controlled log levels – like log, warn, and error. By disabling logs in 
+production, we minimized redundant logging and saved AWS costs. 
+
+--- Page 2 ---
+Backend Bug Fixes 
+I fixed several backend issues, including: Child-parent conflict in menu deletion, 
+Duplicate user creation in a workspace, Datetime search and storage issues, and 
+User deletion from workspace. These fixes improved data consistency and user 
+management. 
+Feature Additions 
+I also worked on new features like: Removing parent workspace ID from response, 
+Custom dashboard links, and Sorting dashboard icons. These enhancements were 
+directly based on client needs and made the product more usable. 
+Blog Site Features 
+Using the SSuites platform, I built a dynamic blog system with: Post creation, Layout 
+customization, Role-based access, Fully customized backend configuration. This was 
+a complete end-to-end project that tested both my technical and logical thinking. 
+HRMS Website for Navitus 
+I also contributed to a client project – HRMS for Navitus. My tasks involved API 
+integration, layout configuration, and employee data management. I gained real-
+world experience handling production issues and client interactions. 
+Final Summary 
+To summarize my internship: Built and maintained production-ready APIs, Learned 
+AWS Lambda, serverless workflows, and debugging techniques, Contributed to both 
+product (Blog) and client (HRMS) systems, Gained hands-on experience in backend 
+and cloud development. This internship has truly prepared me for roles in backend 
+and cloud-native systems. 
+Thank You 
+Thank you for your time. I’m happy to answer any questions. 
